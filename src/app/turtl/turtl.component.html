@@ -1,0 +1,12 @@
+<!--  Set the margin-top and margin-left to the negative half of the div's
+height and width to shift the center towards the middle of the div. -->
+
+<div
+  *ngFor="let index of indexes"
+  class="square"
+  id="{{ index }}"
+  [style.width.px]="index"
+  [style.height.px]="index"
+  [style.marginTop.px]="-index / 2"
+  [style.marginLeft.px]="-index / 2"
+></div>

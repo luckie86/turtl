@@ -1,0 +1,10 @@
+// Set top and left to 50% to center the left-top corner of the div.
+
+.square {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-color: green;
+  border-width: 1px;
+  border-style: solid;
+}
